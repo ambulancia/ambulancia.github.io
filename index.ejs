@@ -37,35 +37,11 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
+          <% for(var i=0; i<options.length; i++) {%>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">O nás</a>
+            <a class="nav-link js-scroll-trigger" href="#about"><%= options[i] %></a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Dentálna hygiena</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Služby</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Cenník</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Fotogaléria</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Aktivity</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Kontakt</a>
-          </li>
-
+          <% } %>
         </ul>
       </div>
     </div>

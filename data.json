@@ -1,0 +1,43 @@
+{
+  "options":[
+    "O nás",
+    "Dentálna hygiena",
+    "Služby",
+    "Cenník",
+    "Fotogaléria",
+    "Aktivity",
+    "Kontakt"
+  ],
+  "portfolio":
+    {
+      "heading":"Dentálna hygiena",
+      "subheading":"Dentálna hygiena je najúčinnejším preventívnym opatrením a jej cieľom je zabezpečiť optimálnu starostlivosť o ústnu dutinu. eliminovať riziko vzniku kazov, zápalu, zabrániť stratám tkanív parodontu, zabrániť stratám zubov a zvýšiť kvalitu života. Návšteva pracoviska dentálnej hygieny môže viesť k výraznému skrášleniu Vášho úsmevu, ale pomôže aj zachovať si zdravý chrup čo najdlhšie. Nejde však len o krásu. Zlý stav zubov často súvisí s kardiovaskulárnymi (infarkt myokardu), mozgovo-cievnymi (mŕtvica), diabetickými ochoreniami. Každý, kto má záujem o svoje orálne zdravie, by mal navštíviť ambulanciu dentálnej hygieny. V zahraničí sú návštevy u dentálnej hygieničky také bežné, ako je návšteva kozmetického, či kaderníckeho salónu alebo fitnes centra. Pacienti dávno pochopili, že je jednoduchšie ochoreniam parodontu a zubov predchádzať, ako ich liečiť.",
+    "items":[
+      {
+        "heading":"Zubný povlak",
+        "subheading":"Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu.",
+        "long":"Zubný povlak sa nachádza na plochách zubov. Hlavnou zložkou sú baktérie a produkty ich látkovej výmeny, zvyšky potravy, zvyšky buniek a zložky slín. Baktérie nachádzajúce sa v povlaku, môžu byť príčinou vzniku zubného kazu, zápalu ďasien (gingivitídy),zápalu závesného aparátu zuba (parodontitídy).Zubný povlak postupne môže mineralizovať a stáva sa z neho zubný kameň. Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu."
+      },
+      {
+        "heading":"Zubný kameň",
+        "subheading":"Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba.",
+        "long":"Minerály, nachádzajúce sa v sline, prijatej potrave môžu viesť k tomu, že zubný povlak nachádzajúci sa na zuboch mineralizuje, teda tvrdne a vzniká zubný kameň.
+        Môže sa nachádzať nad ďasnom – supragingiválny, alebo aj pod ďasnom – subgingiválny. Jeho farba je normálne žltá, ale môže byť aj hnedá až čierna. Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba."
+      },
+      {
+        "heading":"Zubný kaz",
+        "subheading":"Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny.",
+        "long":"Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny. Spôsobujú ho baktérie v povlaku produkujúce kyseliny, ktoré spôsobujú odvápnenie skloviny a následne vznik kazu. Zo začiatku sa prejavuje bielymi zónami, hnedastými fľakmi na sklovine, tmavými sfarbeniami, následne až defektmi na zube. Počiatočný zubný kaz nie je bolestivý. Bolesť začína v okamihu, keď kaz prenikne k vrstve zuboviny, ktorá leží pod sklovinou. Pri šírení kazu do hĺbky dochádza až k zápalu zubnej drene, odumretiu nervov v zubnej dreni. Ak zápal pokračuje, v zube sa tvorí hnis a bez liečby môže dôjsť k zápalu priľahlej kosti.
+Pozor! Kaz mliečnych zuboch treba lekársky ošetriť, lebo stav mliečnych zubov hrá rozhodujúcu úlohu pre kvalitu trvalých zubov."
+      },
+      {
+      "heading":"Gingivitída",
+      "subheading":"Zápal ďasien – gingivitídu spôsobujú baktérie v povlaku. Zdravé ďasná nikdy nesmú krvácať!",
+      "long":""}
+
+    ]
+
+
+    }
+
+}
