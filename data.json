@@ -1,17 +1,33 @@
 {
   "options": [
-    "O nás",
-    "Dentálna hygiena",
-    "Služby",
-    "Cenník",
-    "Fotogaléria",
-    "Aktivity",
-    "Kontakt"
+    {"name": "O nás",
+      "nav":"about"
+    },
+    {"name": "Dentálna hygiena",
+      "nav":"dental"
+    },
+    {
+      "name": "Služby",
+      "nav":"about"
+    },
+    {"name": "Cenník",
+      "nav":"about"
+    },
+    {"name": "Fotogaléria",
+      "nav":"about"
+    },
+    {"name": "Aktivity",
+      "nav":"about"
+    },
+    {"name": "Kontakt",
+      "nav":"about"
+    }
   ],
   "portfolio": {
     "heading": "Dentálna hygiena",
     "subheading": "Dentálna hygiena je najúčinnejším preventívnym opatrením a jej cieľom je zabezpečiť optimálnu starostlivosť o ústnu dutinu. eliminovať riziko vzniku kazov, zápalu, zabrániť stratám tkanív parodontu, zabrániť stratám zubov a zvýšiť kvalitu života. Návšteva pracoviska dentálnej hygieny môže viesť k výraznému skrášleniu Vášho úsmevu, ale pomôže aj zachovať si zdravý chrup čo najdlhšie. Nejde však len o krásu. Zlý stav zubov často súvisí s kardiovaskulárnymi (infarkt myokardu), mozgovo-cievnymi (mŕtvica), diabetickými ochoreniami. Každý, kto má záujem o svoje orálne zdravie, by mal navštíviť ambulanciu dentálnej hygieny. V zahraničí sú návštevy u dentálnej hygieničky také bežné, ako je návšteva kozmetického, či kaderníckeho salónu alebo fitnes centra. Pacienti dávno pochopili, že je jednoduchšie ochoreniam parodontu a zubov predchádzať, ako ich liečiť.",
-    "items": [{
+    "items": [
+      {
         "heading": "Zubný povlak",
         "subheading": "Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu.",
         "long": "Zubný povlak sa nachádza na plochách zubov. Hlavnou zložkou sú baktérie a produkty ich látkovej výmeny, zvyšky potravy, zvyšky buniek a zložky slín. Baktérie nachádzajúce sa v povlaku, môžu byť príčinou vzniku zubného kazu, zápalu ďasien (gingivitídy),zápalu závesného aparátu zuba (parodontitídy).Zubný povlak postupne môže mineralizovať a stáva sa z neho zubný kameň. Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu."
@@ -19,19 +35,12 @@
       {
         "heading": "Zubný kameň",
         "subheading": "Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba.",
-        "long": "Minerály, nachádzajúce sa v sline, prijatej potrave môžu viesť k tomu, že zubný povlak nachádzajúci sa na zuboch mineralizuje, teda tvrdne a vzniká zubný kameň.
-        Môže sa nachádzať nad ďasnom– supragingiválny,
-        alebo aj pod ďasnom– subgingiválny.Jeho farba je normálne žltá,
-        ale môže byť aj hnedá až čierna.Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba.
-        "
+        "long": "Minerály, nachádzajúce sa v sline, prijatej potrave môžu viesť k tomu, že zubný povlak nachádzajúci sa na zuboch mineralizuje, teda tvrdne a vzniká zubný kameň. Môže sa nachádzať nad ďasnom– supragingiváln, alebo aj pod ďasnom– subgingiválny.Jeho farba je normálne žltá, ale môže byť aj hnedá až čierna. Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba."
       },
       {
         "heading": "Zubný kaz",
         "subheading": "Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny.",
-        "long": "Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny. Spôsobujú ho baktérie v povlaku produkujúce kyseliny, ktoré spôsobujú odvápnenie skloviny a následne vznik kazu. Zo začiatku sa prejavuje bielymi zónami, hnedastými fľakmi na sklovine, tmavými sfarbeniami, následne až defektmi na zube. Počiatočný zubný kaz nie je bolestivý. Bolesť začína v okamihu, keď kaz prenikne k vrstve zuboviny, ktorá leží pod sklovinou. Pri šírení kazu do hĺbky dochádza až k zápalu zubnej drene, odumretiu nervov v zubnej dreni. Ak zápal pokračuje, v zube sa tvorí hnis a bez liečby môže dôjsť k zápalu priľahlej kosti.
-        Pozor!Kaz mliečnych zuboch treba lekársky ošetriť,
-        lebo stav mliečnych zubov hrá rozhodujúcu úlohu pre kvalitu trvalých zubov.
-        "
+        "long": "Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny. Spôsobujú ho baktérie v povlaku produkujúce kyseliny, ktoré spôsobujú odvápnenie skloviny a následne vznik kazu. Zo začiatku sa prejavuje bielymi zónami, hnedastými fľakmi na sklovine, tmavými sfarbeniami, následne až defektmi na zube. Počiatočný zubný kaz nie je bolestivý. Bolesť začína v okamihu, keď kaz prenikne k vrstve zuboviny, ktorá leží pod sklovinou. Pri šírení kazu do hĺbky dochádza až k zápalu zubnej drene, odumretiu nervov v zubnej dreni. Ak zápal pokračuje, v zube sa tvorí hnis a bez liečby môže dôjsť k zápalu priľahlej kosti. Pozor!Kaz mliečnych zuboch treba lekársky ošetriť, lebo stav mliečnych zubov hrá rozhodujúcu úlohu pre kvalitu trvalých zubov."
       },
       {
         "heading": "Gingivitída",
@@ -79,8 +88,39 @@
         "long": "Pravidelným ošetrením docielime optimálny stav chrupu, zabránime predčasnej strate zubov odstraňujeme zubný povlak a zubný kameň, profesionálne vyleštíme povrch skloviny a výplní naučíme Vás správnu techniku čistenia zubov a informujeme o najnovších pomôckach na osobnú dentálnu starostlivosť"
       }
     ]
-
-
-  }
-
+  },
+  "services":[
+    {
+      "name":"Motivácia",
+      "long":"V rámci motivácie ide o priateľský a otvorený rozhovor  kde informujeme o príčinách, ktoré vyvolávajú ochorenia v dutine ústnej, o tom, ako je možné im predchádzať a ako sa dajú liečiť. Ku každému pacientovi pristupujeme individuálne."
+    },
+    {
+      "name":"Inštruktáž",
+      "long":"V rámci inštruktáže zubnej hygieny odporučíme pacientovi najvhodnejšie pomôcky pre čistenie zubov a medzizubných priestorov (zubné kefky, medzizubné kefky, nite), s ktorými predvádzame nácvik techniky čistenia. Nácvik prebieha priamo v ústach pacienta, alebo na modeloch chrupu. Zameriavame sa na problematicky dostupné miesta tak, aby na záver pacient presne vedel, aký prístup ku ktorej plôške zuba má zvoliť."
+    },
+    {
+      "name":"Odstraňovanie povlakov, pigmentov",
+      "long":"Odstraňovanie zubného povlaku a pigmentov je činnosť, pri ktorej sa odstraňujú mäkké povlaky a pigmenty z povrchu zubov, zubných náhrad a medzizubných priestorov od kávy, čajov, cigariet a pod. K odstraňovaniu zubného povlaku a pigmentov sa používa abrazívny  odstraňovač AIR-FLOW – tzv. pieskovanie zubov, alebo pasta s abrazívnou schopnosťou- tzv. depuralizácia."
+    },
+    {
+      "name":"Odstraňovanie zubného kameňa",
+      "long":"UZV piezoelektrický (najšetrnejší, špeciálne kyrety, škrabky a i.),supragingiválny a subgingiválny"
+    },
+    {
+      "name":"Airflow – pieskovanie zubov",
+      "long":"Čistenie a odstraňovanie pigmentu prúdom  a je indikovaný až po odstránení nánosov povlaku a zubného kameňa a po inštruktáži individuálnej ústnej hygieny. Nie je vhodný pre všetky zuby a pre všetkých pacientov!"
+    },
+    {
+      "name":"Polishing",
+      "long":"leštenie skloviny"
+    },
+    {
+      "name":"Fluoridácia chrupu",
+      "long":"Ide o jednoduché, ale veľmi účinné opatrenie v boji proti kazu. Jej cieľom u detí je zvýšenie odolnosti skloviny a remineralizácia počiatočných lézií skloviny. Cieľom lokálnej fluoridácie u dospelých je zvýšenie odolnosti a remineralizácia skloviny po odstránení ZK, ďalej zníženie citlivosti zubných krčkov. Pri lokálnej fluoridácii najskôr zuby mechanicky očistíme, vysušíme, nanesieme fluoridový preparát štetcom na všetky plôšky zubov a necháme pôsobiť. Odporúča sa použitie 2x ročne."
+    },
+    {
+      "name":"Odborné poradenstvo",
+      "long":"Poskytujeme odborné poradenstvo v starostlivosti o citlivé zuby a  ako im predchádzať, ako sa čo najlepšie a najefektívnejšie starať o svoj chrup. Poradíme Vám pri výbere a používaní dôležitých pomôcok pre udržanie zdravého úsmevu."
+    }
+  ]
 }

@@ -39,7 +39,7 @@
         <ul class="navbar-nav ml-auto">
           <% for(var i=0; i<options.length; i++) {%>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about"><%= options[i] %></a>
+            <a class="nav-link js-scroll-trigger" href="#<%= options[i].nav %>"><%= options[i].name %></a>
           </li>
           <% } %>
         </ul>
@@ -268,133 +268,22 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Dentálna hygiena</h2>
-          <h3 class="section-subheading text-muted">Dentálna hygiena je najúčinnejším preventívnym opatrením a jej cieľom je zabezpečiť optimálnu starostlivosť o ústnu dutinu. eliminovať riziko vzniku kazov, zápalu, zabrániť stratám tkanív parodontu, zabrániť stratám zubov a zvýšiť kvalitu života. Návšteva pracoviska dentálnej hygieny môže viesť k výraznému skrášleniu Vášho úsmevu, ale pomôže aj zachovať si zdravý chrup čo najdlhšie. Nejde však len o krásu. Zlý stav zubov často súvisí s kardiovaskulárnymi (infarkt myokardu), mozgovo-cievnymi (mŕtvica), diabetickými ochoreniami. Každý, kto má záujem o svoje orálne zdravie, by mal navštíviť ambulanciu dentálnej hygieny. V zahraničí sú návštevy u dentálnej hygieničky také bežné, ako je návšteva kozmetického, či kaderníckeho salónu alebo fitnes centra. Pacienti dávno pochopili, že je jednoduchšie ochoreniam parodontu a zubov predchádzať, ako ich liečiť.</h3>
+            <h3 class="section-subheading text-muted">Dentálna hygiena je najúčinnejším preventívnym opatrením a jej cieľom je zabezpečiť optimálnu starostlivosť o ústnu dutinu. eliminovať riziko vzniku kazov, zápalu, zabrániť stratám tkanív parodontu, zabrániť stratám zubov a zvýšiť kvalitu života. Návšteva pracoviska dentálnej hygieny môže viesť k výraznému skrášleniu Vášho úsmevu, ale pomôže aj zachovať si zdravý chrup čo najdlhšie. Nejde však len o krásu. Zlý stav zubov často súvisí s kardiovaskulárnymi (infarkt myokardu), mozgovo-cievnymi (mŕtvica), diabetickými ochoreniami. Každý, kto má záujem o svoje orálne zdravie, by mal navštíviť ambulanciu dentálnej hygieny. V zahraničí sú návštevy u dentálnej hygieničky také bežné, ako je návšteva kozmetického, či kaderníckeho salónu alebo fitnes centra. Pacienti dávno pochopili, že je jednoduchšie ochoreniam parodontu a zubov predchádzať, ako ich liečiť.</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Zubný povlak</h4>
-            <p class="text-muted">Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu.</p>
+      <!-- <div class="row"> -->
+        <% for(var i=0; i<portfolio.items.length; i++) { %>
+        <!-- <li class="nav-item"> -->
+          <!-- <div class="portfolio-item"> -->
+            <div class="portfolio-caption">
+              <h4><%= portfolio.items[i].heading %></h4>
+              <p class="text-muted"><%= portfolio.items[i].long %></p>
+            <!-- </div> -->
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Zubný kameň</h4>
-            <p class="text-muted">Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Gingivitída</h4>
-            <p class="text-muted">Zápal ďasien – gingivitídu spôsobujú baktérie v povlaku. Zdravé ďasná nikdy nesmú krvácať!</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Parodontitída</h4>
-            <p class="text-muted">Dlhotrvajúci zápal ďasien napáda závesný aparát zubov – tzv. parodont – tvoria ho všetky tkanivá, ktoré držia zub v kosti.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Zápach z úst</h4>
-            <p class="text-muted">Zápach z úst trápi pravidelne a dlhodobo až štvrtinu populácie, mužov a ženy bez rozdielu.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Citlivé zuby</h4>
-            <p class="text-muted">Nesprávna technika čistenia zubov alebo používanie nevhodnej zubnej pasty môže zubnú sklovinu taktiež porušiť a odhaliť dentín</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Odhaľovanie krčkov zubov</h4>
-            <p class="text-muted">Najčastejšou príčinou je usadzovanie kameňa a mechanické a zápalové poškodenie ďasien.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Odhaľovanie krčkov zubov</h4>
-            <p class="text-muted">Najčastejšou príčinou je usadzovanie kameňa a mechanické a zápalové poškodenie ďasien.</p>
-          </div>
-        </div>
-
-
-
-
+        <% } %>
       </div>
-    </div>
+    <!-- </div> -->
   </section>
-
-
-
-
 
   <!-- Clients -->
   <section class="py-5">
