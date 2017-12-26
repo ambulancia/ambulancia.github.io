@@ -8,7 +8,7 @@
     },
     {
       "name": "Služby",
-      "nav":"about"
+      "nav":"services"
     },
     {"name": "Cenník",
       "nav":"about"
@@ -20,7 +20,7 @@
       "nav":"about"
     },
     {"name": "Kontakt",
-      "nav":"about"
+      "nav":"contact"
     }
   ],
   "portfolio": {
