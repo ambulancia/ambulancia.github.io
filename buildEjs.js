@@ -8,6 +8,8 @@ function renderFile() {
       fse.writeFile(`index.html`, str);
     });
 }
-//renderFile();
+if (require.main === module) {
+  renderFile();
+}
 
 module.exports = renderFile;
