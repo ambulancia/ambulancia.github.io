@@ -47,5 +47,5 @@
     },
     "scripts":
       {"build":"node buildEjs",
-      "start":"node live"}     
+      "start":"node live"}
 }

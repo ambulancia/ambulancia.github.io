@@ -6,10 +6,6 @@
     {"name": "Dentálna hygiena",
       "nav":"dental"
     },
-    {
-      "name": "Služby",
-      "nav":"services"
-    },
     {"name": "Cenník",
       "nav":"about"
     },
@@ -25,67 +21,31 @@
   ],
   "portfolio": {
     "heading": "Dentálna hygiena",
-    "subheading": "Dentálna hygiena je najúčinnejším preventívnym opatrením a jej cieľom je zabezpečiť optimálnu starostlivosť o ústnu dutinu. eliminovať riziko vzniku kazov, zápalu, zabrániť stratám tkanív parodontu, zabrániť stratám zubov a zvýšiť kvalitu života. Návšteva pracoviska dentálnej hygieny môže viesť k výraznému skrášleniu Vášho úsmevu, ale pomôže aj zachovať si zdravý chrup čo najdlhšie. Nejde však len o krásu. Zlý stav zubov často súvisí s kardiovaskulárnymi (infarkt myokardu), mozgovo-cievnymi (mŕtvica), diabetickými ochoreniami. Každý, kto má záujem o svoje orálne zdravie, by mal navštíviť ambulanciu dentálnej hygieny. V zahraničí sú návštevy u dentálnej hygieničky také bežné, ako je návšteva kozmetického, či kaderníckeho salónu alebo fitnes centra. Pacienti dávno pochopili, že je jednoduchšie ochoreniam parodontu a zubov predchádzať, ako ich liečiť.",
+    "subheading": "Absolvovanie dentálnej hygieny v pravidelných intervaloch je základom prevencie vzniku kazov, zápalov, straty zubov a v konečnom dôsledku zvýšuje kvalitu života. Počas ošetrenia sa odstraňuje zubný kameň nad i pod ďasnom.  Nasleduje preleštenie , odstránenie pigmentov, prípadne pieskovanie, ktoré prečistí aj ťažko prístupné priestory. Ošetrenie sa ukončuje lokálnym ošetrením ďasien a fluoridáciou. Zuby zostávajú hladšie, belšie a krajšie. V našich ambulanciách ošetrujeme dospelých aj deti už od prvých zúbkov. Ošetrenie trvá 50-60 minút, u detí kratšie, v závislosti od veku dietaťa. Dentálnu hygienu sa odporúča absolvovať aspoň 2 krát ročne. V našich ambulanciách poskytujeme profesionálnu hygienu, ktorá zahŕňa:",
     "items": [
       {
-        "heading": "Zubný povlak",
-        "subheading": "Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu.",
-        "long": "Zubný povlak sa nachádza na plochách zubov. Hlavnou zložkou sú baktérie a produkty ich látkovej výmeny, zvyšky potravy, zvyšky buniek a zložky slín. Baktérie nachádzajúce sa v povlaku, môžu byť príčinou vzniku zubného kazu, zápalu ďasien (gingivitídy),zápalu závesného aparátu zuba (parodontitídy).Zubný povlak postupne môže mineralizovať a stáva sa z neho zubný kameň. Odstránenie zubného povlaku je základom v domácej a aj v profesionálnej starostlivosti o zdravie a krásu nášho chrupu."
+        "name":"Motivácia",
+        "long":"V rámci motivácie ide o priateľský a otvorený rozhovor, kde informujeme o príčinách, ktoré vyvolávajú ochorenia v dutine ústnej, o tom, ako je možné im predchádzať a ako sa dajú liečiť. Ku každému pacientovi pristupujeme individuálne."
       },
       {
-        "heading": "Zubný kameň",
-        "subheading": "Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba.",
-        "long": "Minerály, nachádzajúce sa v sline, prijatej potrave môžu viesť k tomu, že zubný povlak nachádzajúci sa na zuboch mineralizuje, teda tvrdne a vzniká zubný kameň. Môže sa nachádzať nad ďasnom– supragingiváln, alebo aj pod ďasnom– subgingiválny.Jeho farba je normálne žltá, ale môže byť aj hnedá až čierna. Odstránenie zubného kameňa u dentálnej hygieničky je dôležitou súčasťou v prevencii a liečbe ochorení závesného aparátu zuba."
+        "name":"Inštruktáž",
+        "long":"Pacientom odporučíme vhodné pomôcky a naučíme správnu techniku čistenia zubov."
       },
       {
-        "heading": "Zubný kaz",
-        "subheading": "Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny.",
-        "long": "Zubný kaz je choroba tvrdých zubných tkanív, ktorá sa prejavuje rozpadom skloviny a zuboviny. Spôsobujú ho baktérie v povlaku produkujúce kyseliny, ktoré spôsobujú odvápnenie skloviny a následne vznik kazu. Zo začiatku sa prejavuje bielymi zónami, hnedastými fľakmi na sklovine, tmavými sfarbeniami, následne až defektmi na zube. Počiatočný zubný kaz nie je bolestivý. Bolesť začína v okamihu, keď kaz prenikne k vrstve zuboviny, ktorá leží pod sklovinou. Pri šírení kazu do hĺbky dochádza až k zápalu zubnej drene, odumretiu nervov v zubnej dreni. Ak zápal pokračuje, v zube sa tvorí hnis a bez liečby môže dôjsť k zápalu priľahlej kosti. Pozor!Kaz mliečnych zuboch treba lekársky ošetriť, lebo stav mliečnych zubov hrá rozhodujúcu úlohu pre kvalitu trvalých zubov."
+        "name":"Odstraňovanie zubného kameňa",
+        "long":"Najpodstatnejšia časť ošetrenia. Na odstránenie zubného kameňa používame piezoelektrický ultrazvukový prístroj a špeciálne ručné nástroje."
       },
       {
-        "heading": "Gingivitída",
-        "subheading": "Zápal ďasien – gingivitídu spôsobujú baktérie v povlaku. Zdravé ďasná nikdy nesmú krvácať!",
-        "long": "Nedostatočnou a nepravidelnou hygienou zubov i medzizubných priestorov dochádza k rozmnožovaniu baktérií, ktoré produkujú – toxíny a iné látky, ktoré vyvolajú zápal ďasna. Priebeh gingivitídy je vo väčšine prípadov chronický. Obtiaže sú  nevýrazné, prítomné je občasné krvácanie pri jedle alebo čistení zubov, minimálna alebo žiadna bolestivosť. Známky zápalu : ďasno je zdurené, červené, krváca. Zápal ďasien by sme nemali podceniť, ale liečiť. Ak zápal nepreliečime, môže dôjsť k ochoreniu nazývanému parodontitída – zápalové ochorenie závesného aparátu zubov."
+        "name":"Airflow – pieskovanie zubov",
+        "long":"Odstránenie povlakov a pigmentov z povrchu zubov jemným práškom zmiešaným s vodou pod tlakom."
       },
       {
-        "heading": "Parodontitída",
-        "subheading": "Zápalové ochorenie závesného aparátu zubov",
-        "long": "Dlhotrvajúci zápal ďasien napáda závesný aparát zubov – tzv. parodont – tvoria ho všetky tkanivá, ktoré držia zub v kosti. Medzi zubom a ďasnom sa otvára priestor, zápal postupuje smerom ku koreňu a dochádza k deštrukcii väzov a resorpcii kosti. Nastáva poškodenie, ktoré je nezvratné. Jej priebeh je spravidla bezbolestný. Na parodontitídu nás však môže upozorniť niekoľko príznakov ako krvácanie pri čistení zubov, tmavočervené, opuchnuté, citlivé ďasná, ústup ďasna smerom ku koreňu zuba, kývavosť zubov, zápach z úst, prítomnosť sekrétu alebo hnisu vytekajúceho z parodontálnych vačkov a iné."
+        "name":"Polishing",
+        "long":"Leštenie zubov profylaktickou pastou"
       },
       {
-        "heading": "Zápach z úst",
-        "subheading": "Zápach z úst trápi pravidelne a dlhodobo až štvrtinu populácie.",
-        "long": "Zápach z úst trápi pravidelne a dlhodobo až štvrtinu populácie, mužov a ženy bez rozdielu. Často je však tiež prvou známkou toho, že sa v našej ústnej dutine deje niečo zlé. Zdroj  ťažkostí môže byť v pokazených zubov či infekcie v ústnej dutine. Zásadou je, že ústnej hygiene máme venovať zvýšenú starostlivosť."
-      },
-      {
-        "heading": "Citlivé zuby",
-        "subheading": "Pri konzumácii horúcich, studených, sladkých alebo veľmi kyslých potravín a nápojov alebo pri vdychovaní studeného vzduchu vaše zuby citlivé, alebo ak pociťujete bolesť, môžete trpieť zvýšenou citlivosťou zubov.",
-        "long": "Pri konzumácii horúcich, studených, sladkých alebo veľmi kyslých potravín a nápojov alebo pri vdychovaní studeného vzduchu vaše zuby citlivé, alebo ak pociťujete bolesť, môžete trpieť zvýšenou citlivosťou zubov. Vzniká po odhalení zubného krčka, alebo koreňa zuba, ktorí nie je pokrytý sklovinou a kedy zostáva dentín odhalený. Nesprávna technika čistenia zubov alebo používanie nevhodnej zubnej pasty môže zubnú sklovinu taktiež porušiť a odhaliť dentín. Aj pri častej konzumácii kyslých potravín môže dochádzať k erózii zubov a k narušeniu zubnej skloviny a tým aj k odhaleniu dentínu. Prečo odhalenie dentínu bolí? Dentín (zubovina) obsahuje tisíce drobných kanálikov, ktoré sú viditeľné iba pod mikroskopom. Tieto kanáliky vedú z povrchu skrz dentín do nervového centra zuba - drene zuba. Obsahujú tekutinu, ktorá sa po konzumácii teplého alebo studeného jedla , prípadne nápoja dá v týchto drobných kanálikoch do pohybu a aktivuje nervy v zubnej dreni, čo spôsobí bolesť."
-      },
-      {
-        "heading": "Odhaľovanie krčkov zubov",
-        "subheading": "Najčastejšou príčinou je usadzovanie kameňa a mechanické a zápalové poškodenie ďasien.",
-        "long": "Odhaľovanie zubných krčkov má viacero možných príčin. Najčastejšou príčinou je usadzovanie kameňa a mechanické a zápalové poškodenie ďasien. Ďalej to spôsobujú nadmerné slizničné ťahy, napríklad uzdičiek. Často je to nesprávna technika čistenia zubov, použitie nesprávnych pomôcok na čistenie zubov, ktoré môžu spôsobovať odhaľovanie krčkov spolu s mechanickým poškodením povrchu zubného tkaniva a jeho stratou. Ďalšími príčinami môžu byť preťaženie jednotlivých zubov v dôsledku ortodontickej anomálie a atrofia parodontu."
-      },
-      {
-        "heading": "Starostlivosť o chrup",
-        "subheading": "Starostlivosť o chrup tehotných žien, detí, dospelých.",
-        "long": "Starostlivosť o chrup tehotných žien, detí, dospelých."
-      },
-      {
-        "heading": "Dentálna hygiena u tehotných mamičiek",
-        "subheading": "Ďasna sú v tehotenstve vplyvom hormonálnych zmien viac vnímavé voči povlaku.",
-        "long": "Ďasna sú v tehotenstve vplyvom hormonálnych zmien viac vnímavé voči povlaku. Aj preto by budúca mamička mala počas gravidity absolvovať aspoň dve preventívne prehliadky u zubného lekára, dôležitejšie je však navštíviť dentálnu hygieničku.Zubný kaz, zápal ďasien, ochorenia parodontu v období tehotenstva vznikajú len vlastnou vinou budúcej mamičky a to nesprávnou výživou, hlavne zvýšeným príjmom sladkostí a nedostatkom potrebných živín v strave a předovšetkým nesprávnou a nedostatočnou ústnou hygienou."
-      },
-      {
-        "heading": "Dentálna hygiena u detí",
-        "subheading": "Dôležitá je starostlivosť o dutinu ústnu hneď po narodení dieťatka, čistenie zubov od prerezania prvého zúbka.",
-        "long": "Dôležitá je starostlivosť o dutinu ústnu hneď po narodení dieťatka, čistenie zubov od prerezania prvého zúbka. Správnou starostlivosťou pri vývoji dieťaťa môžeme predísť vývojovým chybám a celkovým ochoreniam. Starostlivosť o zmiešaný chrup, kedy dochádza k výmene mliečnych zúbkov za trvalé. Ako prvá sa prerezáva stála stolička – je to zub 6. roka. Preto sa tieto zuby veľmi rýchlo pokazia. Naučíme dieťa zvládnuť správnu techniku čistenia zubov, používať správne pomôcky na čistenie (starostlivosť o fixné a snímateľné ortodontické aparáty), informujeme o správnej výžive, pravidelne posilňujeme zubnú sklovinu fluoridmi (fluoridácia)"
-      },
-      {
-        "heading": "Dentálna hygiena pre dospelých",
-        "subheading": "Pravidelným ošetrením docielime optimálny stav chrupu",
-        "long": "Pravidelným ošetrením docielime optimálny stav chrupu, zabránime predčasnej strate zubov odstraňujeme zubný povlak a zubný kameň, profesionálne vyleštíme povrch skloviny a výplní naučíme Vás správnu techniku čistenia zubov a informujeme o najnovších pomôckach na osobnú dentálnu starostlivosť"
+        "name":"Fluoridácia chrupu",
+        "long":"Remineralizácia skloviny fluoridačným gélom. Odporúča sa 2 krát ročne."
       }
     ]
   },
@@ -97,10 +57,6 @@
     {
       "name":"Inštruktáž",
       "long":"V rámci inštruktáže zubnej hygieny odporučíme pacientovi najvhodnejšie pomôcky pre čistenie zubov a medzizubných priestorov (zubné kefky, medzizubné kefky, nite), s ktorými predvádzame nácvik techniky čistenia. Nácvik prebieha priamo v ústach pacienta, alebo na modeloch chrupu. Zameriavame sa na problematicky dostupné miesta tak, aby na záver pacient presne vedel, aký prístup ku ktorej plôške zuba má zvoliť."
-    },
-    {
-      "name":"Odstraňovanie povlakov, pigmentov",
-      "long":"Odstraňovanie zubného povlaku a pigmentov je činnosť, pri ktorej sa odstraňujú mäkké povlaky a pigmenty z povrchu zubov, zubných náhrad a medzizubných priestorov od kávy, čajov, cigariet a pod. K odstraňovaniu zubného povlaku a pigmentov sa používa abrazívny  odstraňovač AIR-FLOW – tzv. pieskovanie zubov, alebo pasta s abrazívnou schopnosťou- tzv. depuralizácia."
     },
     {
       "name":"Odstraňovanie zubného kameňa",
