@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
@@ -47,7 +48,7 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Cenník</a>
+              <a class="nav-link js-scroll-trigger" href="#prices">Cenník</a>
             </li>
             
             <li class="nav-item">
@@ -98,7 +99,13 @@
                 <li>vyššie odborné vzdelanie ukončené diplomom </li>
                 <li>certifikáty z absolvovania teoreticko-praktických školení a akcií </li>
               </ul>
-
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/Ambulancia-dent%C3%A1lnej-hygieny-BratislavaIdeadent-371732929584683/">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="col-sm-6">
@@ -114,13 +121,13 @@
                   <li>certifikáty z absolvovania teoreticko-praktických školení a akcií</li>
                 </ul>
               </div>
-              <!-- <ul class="list-inline social-buttons">
+              <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/Ambulancia-dent%C3%A1lnej-hygieny-BratislavaIdeadent-371732929584683/">
+                  <a href="https://www.facebook.com/pg/Ambulancia-dent%C3%A1lnej-hygieny-Malacky-Ideadent-241120759402360/">
                       <i class="fa fa-facebook"></i>
                     </a>
                 </li>
-              </ul> -->
+              </ul>
             </div>
           </div>
 
@@ -383,7 +390,7 @@
               </span>
             <h4 class="service-heading">Web Security</h4>
             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div> -->
+          </div>
         </div>
       </div>
     </section> -->
@@ -418,92 +425,67 @@
       </div>
     </section> -->
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Kontakt</h2>
-            <h3 class="section-subheading text-muted">Kontaktujte nás pomocou nasledovného formuláru.</h3>
-          </div>
+    <section id="prices" class="bg-light">
+
+        <div class="container">
+          <h2>Cenník </h2>
+          <table>
+            <tr>
+              <th>Dospelí</th>
+            </tr>
+            <tr>
+              <td width="70%">Dentálna hygiena cca 60min</td>
+              <td>35 - 38 €</td>
+            </tr>
+            <tr>
+              <td>
+                zahŕňa:
+                <ul class="text-muted">
+                <li>odstránenie zubného kameňa - ultrazvukový EMS prístroj, špeciálne nástroje</li>
+                <li>odstránenie pigmentov, povlakov, polishing, fluoridáciu</li>
+                <li>motiváciu, inštruktáž</li>
+              </ul>
+              </td>
+            </tr>
+            <tr>
+              <td width="70%">
+              Dentálna hygiena + AIR FLOW - pieskovanie zubov
+              </td>
+              <td>45 - 48 €</td>
+            </tr>
+            <tr>
+              <td width="70%">
+            Dentálna hygiena 2.sedenie cca 30min.
+              </td>
+              <td>30 €</td>
+            </tr>
+            <tr>
+              <td width="70%">
+             <ul class="text-muted"><li>prípadné dočistenie zubného kameňa a povlakov</li> </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Deti</th>
+            </tr>
+            <tr>
+              <td width="70%">
+                Dentálna hygiena s odstránením zub. povlaku + kameňa</td>
+              <td>25-30 €</td>
+            </tr>
+            <tr>
+              <td>
+                zahŕňa:
+                <ul class="text-muted">
+                <li>odstránenie zubného kameňa</li>
+                <li>odstránenie pigmentov, povlakov, polishing, fluoridáciu</li>
+                <li>motiváciu, inštruktáž</li>
+              </ul>
+              </td>
+            </tr>
+          </table>
+          <br>Kompletný cenník máte k nahliadnutiu v čakárni ambulancie.
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Vaše meno *" required data-validation-required-message="Vaše meno">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Vaša e-mailová adresa *" required data-validation-required-message="Vaša e-mailová adresa">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Vaša e-mailová adresa *" required data-validation-required-message="Vaša e-mailová adresa">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Sem proším vložte váš odkaz *" required data-validation-required-message="Sem proším vložte váš odkaz"></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Odoslať</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; IdeaDent 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/Ambulancia-dent%C3%A1lnej-hygieny-BratislavaIdeadent-371732929584683/">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-              </li>
-            </ul>
-          </div>
-          <!-- <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div> -->
-        </div>
-      </div>
-    </footer>
-
-
     <!-- Gallery Grid -->
         <section class="bg-light" id="portfolio">
           <div class="container">
@@ -587,6 +569,80 @@
             </div>
           </div>
         </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Kontakt</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="row">
+                <div class="col-md-9">
+                  BRATISLAVA:<br>
+                  Popovičová,dipl.d.h.<br>
+                  Medicentrum Strečnianska 13<br>
+                  t.č.: 0905794241<br>
+                  e-mail: popovicova@ideadent.sk
+                </div>
+                <div class="col-md-3">
+                  MALACKY:<br>
+                  Bc.Švarcová,dipl.d.h.<br>
+                  Zdravotné stredisko Na Brehu 3<br>
+                  t.č.: 0903771014<br>
+                  e-mail: svarcova@ideadent.sk
+                </div>
+            </div>
+          </div>
+        </div>
+          <div  class="ordinacne" >Ordinačné hodiny: Pacientov prijímame len na objednávku</div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; IdeaDent 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Ambulancia-dent%C3%A1lnej-hygieny-BratislavaIdeadent-371732929584683/">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+
+
 
     <!-- Portfolio Modals -->
 
