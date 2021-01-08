@@ -1,0 +1,18 @@
+Redirect permanent / https://www.ambulancia.github.io/
+
+zaloha:
+ErrorDocument 404 /chybovka.html
+# podstrceni
+RewriteEngine on
+RewriteRule Uvod index.php?page=uvod
+RewriteRule dentalna-hygiena index.php?page=dentalna_hygiena
+RewriteRule Sluzby index.php?page=sluzby
+RewriteRule Kontakt index.php?page=kontakt
+RewriteRule Cennik index.php?page=cennik
+RewriteRule Galeria index.php?page=galeria
+RewriteRule Kniha index.php?page=kniha
+RewriteRule Aktivity index.php?page=aktivity
+RewriteRule O-nas index.php?page=onas
+RewriteRule ^galeria\.(.*)-(.*) index.php?page=foto&galeria=$1&album=$2
+
+DirectoryIndex index.php index.html index.php5 index.htm default.htm default.html
